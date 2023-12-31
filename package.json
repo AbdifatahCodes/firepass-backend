@@ -1,27 +1,28 @@
 {
-   "name": "firepass-orm",
-   "version": "1.0.0",
-   "main": "index.js",
-   "scripts": {
-      "start": "ts-node src/index.ts",
-      "build": "tsc",
-      "typeorm": "typeorm-ts-node-commonjs"
-   },
-   "license": "MIT",
-   "dependencies": {
-      "@apollo/server": "^4.9.5",
-      "bcrypt": "^5.1.1",
-      "graphql": "^16.8.1",
-      "jsonwebtoken": "^9.0.2",
-      "pg": "^8.4.0",
-      "reflect-metadata": "^0.1.13",
-      "typeorm": "0.3.17",
-      "typescript": "^5.3.2",
-      "validator": "^13.11.0"
-   },
-   "devDependencies": {
-      "@types/node": "^20.10.1",
-      "@types/typescript": "^2.0.0",
-      "ts-node": "10.7.0"
-   }
+  "name": "firepass-orm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "typeorm": "typeorm-ts-node-commonjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "bcrypt": "^5.1.1",
+    "graphql": "^16.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.4.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "0.3.17",
+    "typescript": "^5.3.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "@types/typescript": "^2.0.0",
+    "ts-node": "10.7.0",
+    "typescript": "^5.3.2"
+  }
 }
